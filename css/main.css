@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap');
+
+body {
+  background: #FFFFFF;
+  font-family: 'noto sans jp';
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  padding-left: 120px;
+  padding-top: 80px;
+}
+nav {
+  display: none;
+}
+.container {
+  display: flex;
+  place-content: space-between;
+  position: relative;
+}
+  .stencil-logo {
+    height: 40px;
+    margin-top: 24px;
+    float: left;
+  }
+  .vl {
+    border-left: 1px solid #C4C4C4;
+    height: 92px;
+    margin-left: 24px;
+    float: left;
+  }
+  .figma-logo {
+    height: 40px;
+    margin-top: 24px;
+    margin-left: 24px;
+    float: left;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .hero-text {
+    width: 670px;
+    height: 201px;
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 51px;
+    line-height: 132%;
+    /* or 67px */
+    letter-spacing: -0.6px;
+    color: #292929;
+    margin-top: 122px;
+  }
+    span {
+      font-family: Noto Sans JP;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 51px;
+      line-height: 132%;
+      /* or 67px */
+      letter-spacing: -0.6px;
+      color: #292929;
+    }
+  .secondary-btn {
+    background-color: #FFFFFF;
+    width: 240px;
+    height: 80px;
+    border: none;
+    border-radius: 80px;
+    box-shadow: 0px 8px 64px rgba(0, 0, 0, 0.12);
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    /* or 117% */
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #1F51E5;
+  }
+  .primary-btn {
+    background-color: #1F51E5;
+    width: 347px;
+    height: 80px;
+    border: none;
+    border-radius: 80px;
+    box-shadow: 0px 8px 64px rgba(18, 58, 209, 0.46);
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    /* or 117% */
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #FFFFFF;
+    margin-left: 16px;
+  }
+
+  .contact-container {
+    height: 300px;
+    background: linear-gradient(0deg, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%);
+    padding-top: 84px;
+    margin-top: 37px;
+    display: block;
+  }
+
+  .hero-img__container {
+    position: absolute;
+    top: -11rem;
+    right: -11rem;
+  }
+  .main-list-1 {
+    float: left;
+  }
+  .main-list-2 {
+    float: left;
+    margin-left: 80px;
+  }
+    .list-style {
+      font-family: Noto Sans JP;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 120%;
+      /* identical to box height, or 22px */
+      letter-spacing: -0.6px;
+      color: #838383;
+      margin-top: 32px;
+    }
+  .social {
+    float: right;
+    margin-top: 120px;
+    margin-right: 120px;
+  }
+    .social-list {
+      float: left;
+    }
+      .twitter {
+        margin-left: 16px;
+        margin-right: 16px;
+      }
