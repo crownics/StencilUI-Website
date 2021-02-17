@@ -105,12 +105,14 @@ nav {
     margin-top: 37px;
     display: block;
   }
-
   .hero-img__container {
     position: absolute;
     top: -11rem;
     right: -11rem;
   }
+    .hero-img {
+      height: 1050px;
+    }
   .main-list-1 {
     float: left;
   }
