@@ -8,6 +8,8 @@ body {
   overflow-x: hidden;
   padding-left: 120px;
   padding-top: 80px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 nav {
   display: none;
@@ -117,7 +119,7 @@ nav {
     height: 300px;
     background: linear-gradient(0deg, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%);
     padding-top: 84px;
-    margin-top: 37px;
+    margin-top: 41px;
     display: block;
   }
   .hero-img__container {
@@ -178,6 +180,7 @@ nav {
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 56px;
+    padding-bottom: 106px;
   }
   .stencil-logo {
     margin-top: 12px;
@@ -315,7 +318,7 @@ nav {
   .social-mobile {
     display: block;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 72px;
   }
   .social-list {
     float: left;
@@ -332,6 +335,7 @@ nav {
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 56px;
+    padding-bottom: 72px;
   }
   .stencil-logo {
     margin-top: 12px;
@@ -446,12 +450,13 @@ nav {
     color: #838383;
     margin-left: 0px;
   }
+  .contact-container {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
   .main-list-3 {
     float: left;
     margin-left: 45px;
-  }
-  .social-mobile {
-    display: none:
   }
 }
 
