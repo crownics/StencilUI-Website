@@ -116,10 +116,10 @@ nav {
 
   .contact-container {
     width: auto;
-    height: 300px;
+    height: 250px;
     background: linear-gradient(0deg, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%);
-    padding-top: 84px;
-    margin-top: 41px;
+    padding-top: 64px;
+    margin-top: 24px;
     display: block;
   }
   .hero-img__container {
@@ -131,7 +131,7 @@ nav {
     display: none;
   }
     .hero-img {
-      height: 1050px;
+      height: 1020px;
     }
   .main-list-1 {
     float: left;
@@ -148,7 +148,7 @@ nav {
       font-family: Noto Sans JP;
       font-style: normal;
       font-weight: normal;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 120%;
       /* identical to box height, or 22px */
       letter-spacing: -0.6px;
@@ -180,7 +180,7 @@ nav {
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 56px;
-    padding-bottom: 106px;
+    padding-bottom: 104px;
   }
   .stencil-logo {
     margin-top: 12px;
@@ -318,7 +318,7 @@ nav {
   .social-mobile {
     display: block;
     text-align: center;
-    margin-top: 72px;
+    margin-top: 120px;
   }
   .social-list {
     float: left;
